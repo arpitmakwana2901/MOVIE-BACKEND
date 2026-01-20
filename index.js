@@ -25,12 +25,12 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:5174",
-      "https://movie-project-six-tan.vercel.app",
+      "https://movie-indol-xi.vercel.app/",
     ],
     methods: "GET,POST,PUT,DELETE",
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"],
-  })
+  }),
 );
 
 app.use(express.json());
